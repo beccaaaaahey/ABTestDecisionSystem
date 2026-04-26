@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+#not having API keys shown in GitHubs
+.env
+__pycache__/
+*.csv
+venv/
+
 # C extensions
 *.so
 

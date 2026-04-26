@@ -1,0 +1,6 @@
+SRM_Status: Pass
+Conv_P: 0.0000, Ret_P: 0.0000
+Conversion Rate 99% CI: [5.58%, 7.38%]
+Retention Rate 99% CI: [31.17%, 34.59%]
+Conv_Lift: 77.49%
+Ret_Lift: -16.46%
