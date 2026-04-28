@@ -33,7 +33,6 @@ df['hesitation_time'] = np.where(
     np.random.normal(loc=12, scale=4, size=num_users),
     np.random.normal(loc=3, scale=1, size=num_users))
 
-df['hesitation_time'] = df['hesitation_time'].clip(lower=0) #ensure no negative hesitation time
-
+df['hesitation_time'] = df['hesitation_time'].clip(lower=0)
 
 df.to_csv('paywall_data.csv', index=False)
